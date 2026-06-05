@@ -1,5 +1,7 @@
 # Firecracker MicroVM Observability with Bombini
 
+![Demo Video](demo.gif)
+
 This repository provides an example of using [Bombini](https://github.com/bombinisecurity/bombini) for security observability Firecracker workloads.
 
 ## Reproducing Steps
