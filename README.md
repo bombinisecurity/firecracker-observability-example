@@ -91,7 +91,6 @@ First, install socat and listen socket by runing this commands in 1st terminal:
 sudo apt install socat
 socat - UNIX-LISTEN:/tmp/bombini_stream.sock_5000,fork
 ```
-Where start bombini as daemon connected to vsock inside VM, before `exec /bin/sh` (details in [init.sh](init.sh)).
 
 Start the Firecracker VM in 2nd terminal:
 
